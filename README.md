@@ -10,10 +10,9 @@ This project presents the design and simulation of a Telescopic Cascode Differen
 
 ## Achieved Results (Simulation)
 - **Voltage Gain (Ao)**: 619.7 (55.84 dB)
-- **Bandwidth (BW)**: 78.14 MHz
-- **Gain-Bandwidth Product (GBW)**: 48.43 GHz
+- **Bandwidth (BW)**: 12.4 MHz
+- **Unity-Gain Frequency**: ~3.5 GHz
 - **Power Consumption**: 91.11 µW
-- **Phase Margin**: ~41°
 
 ## Key Features & Workflow
 1. **LUT Generation**: DC sweeps to extract $g_m/I_D$, $g_m r_o$, and $I_D/W$ curves to relate biasing conditions to performance parameters.
@@ -32,9 +31,9 @@ This project presents the design and simulation of a Telescopic Cascode Differen
 - `schematic/`: Cadence Virtuoso schematic database files.
 
 ## Team Members
+- Ahmed Sherif Mohamed (23P0414)
 - Manar Saber Abdelrahim (22P0125)
 - Mariam Islam Elsebaie (22P0177)
-- Ahmed Sherif Mohamed (23P0414)
 
 ## Submitted To
 - Prof. Sameh A. Ibrahim
